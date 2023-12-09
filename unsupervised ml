@@ -1,0 +1,33 @@
+What is Unsupervised Learning?
+
+Unsupervised learning is a machine learning paradigm where the algorithm works with a dataset that lacks predefined labels or outputs. In contrast to supervised learning, which relies on labelled data with known input-output pairs, unsupervised learning involves examining and understanding the inherent structure or patterns within the data without explicit target values
+
+
+Why use Unsupervised Learning
+
+There are several reasons to use unsupervised learning:
+1. Clustering: Unsupervised learning is commonly used for clustering, where the algorithm groups similar data points together. This is useful in segmentation and organizing data into meaningful categories.
+
+2. Dimensionality Reduction: Unsupervised learning techniques like Principal Component Analysis (PCA) or t-Distributed Stochastic Neighbour Embedding (t-SNE) are used to reduce the dimensionality of data while preserving important information. This is particularly helpful in visualizing high-dimensional data.
+
+3. Anomaly Detection: Unsupervised learning can identify unusual patterns or outliers in the data, which can be indicative of errors or interesting phenomena.
+
+5. Generative Modelling: Unsupervised learning can be used for generative tasks, where the algorithm learns to generate new samples that resemble the training data. This is useful in creating synthetic data for augmentation or simulation.
+
+
+ Working of Unsupervised Learning
+
+The working of unsupervised learning involves the following key steps:
+
+1. Input Data: Start with a dataset that lacks labelled output. The algorithm has no prior information about the relationships or patterns within the data.
+
+2. Feature Extraction or Transformation: Depending on the task, the algorithm may perform feature extraction or transformation to represent the data in a more suitable form. This can involve reducing the dimensionality of the data or transforming it into a different space.
+
+3. Learning and Model Building: The algorithm then learns patterns, structures, or relationships within the data using various techniques. Common unsupervised learning methods include clustering algorithms (e.g., K-means), dimensionality reduction techniques (e.g., PCA), and generative models (e.g., autoencoders).
+
+4. Evaluation (Optional): In some cases, the effectiveness of unsupervised learning models can be evaluated, although this is often more challenging than in supervised learning. Evaluation metrics depend on the specific task, such as silhouette score for clustering or reconstruction error for dimensionality reduction.
+
+5. Interpretation: Finally, the discovered patterns or structures are interpreted by the user or analyst. This interpretation can lead to insights, improved understanding of the data, or informed decision-making.
+
+Overall, unsupervised learning is a powerful approach for extracting valuable information from unlabelled data and is widely used in various domains, including data analysis, pattern recognition, and exploratory research.
+
